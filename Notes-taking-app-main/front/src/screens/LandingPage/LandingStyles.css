@@ -1,0 +1,58 @@
+.main {
+    /* min-height: max-content; */
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../background1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .intro-text{
+      text-align: center;
+      font-size: larger;
+  }
+  .footer-bg{
+      background-color: aqua;
+      width: 100vw;
+  }
+  .header-bg{
+      background-color: darkgray;
+      text-decoration: aqua;
+      font-style: italic;
+      font-weight: 800;
+  }
+  .landing-btn{
+    margin-right: 8px;
+    margin-left: 8px;
+    justify-content: space-evenly;
+    background-color: aqua;
+  }
+  .intro-text h1 {
+      
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: overline;
+    color: rgb(74, 86, 92);
+    /* color: rgb(189, 209, 9); */
+    font-size: 45px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .buttonContainer {
+      padding: 0 200px;
+    }
+    .title {
+      padding: 0 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 60px;
+    }
+    .landingbutton {
+      width: 150px;
+      height: 50px;
+    }
+  }
